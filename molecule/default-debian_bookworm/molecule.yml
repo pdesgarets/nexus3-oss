@@ -17,7 +17,7 @@ lint: |
 platforms:
   - name: nexus3-oss-debian-bookworm
     hostname: nexus3-oss-debian-bookworm
-    image: thoteam/molecule_apache_openjdk8:debian_bookworm
+    image: pdesgarets/molecule_apache_openjdk8
     command: lib/systemd/systemd
     pull: true
     pre_build_image: true
